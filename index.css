@@ -5,9 +5,9 @@
 
 
 .nav-bar {
-    border: solid 1px white;
+    border: solid 1px white ;
     border-radius: 10px;
-    background-color: white;
+    background-color: gray;
     margin: -1px;
     padding: 10px;
     display: flex;
@@ -15,9 +15,28 @@
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    width: 98%;
     left: 0;
-    width: 100%;
 
+}
+
+.sfondo {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row ;
+    height: 700px;
+
+
+
+}
+
+.imglogo {
+   margin: auto;
+    width: 900px;
+    height: 800px;
 }
 
 
@@ -29,11 +48,33 @@
     width: 100px;
     height: 30px;
     padding: 2px;
+}
 
+.quadrato {
+    border: solid 1px white;
 }
 
 
 .logo {
     width: 100px;
     height: 100px;
+}
+
+
+.footer {
+    border: solid 2px ;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: -1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 98%;
+    left: 0;
+    bottom: 0;
+
 }
