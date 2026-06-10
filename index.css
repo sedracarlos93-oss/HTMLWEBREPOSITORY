@@ -1,0 +1,43 @@
+.body {
+    background-color: lightorange;
+    font-family: Arial, sans-serif;
+}
+
+.linea-navbar {
+    border: solid 2px gray;
+    border-radius: 10px;
+    
+}
+.nav-bar {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: white;
+    margin: -1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+
+}
+
+
+.button:link {
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
