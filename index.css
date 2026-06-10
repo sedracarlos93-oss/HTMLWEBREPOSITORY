@@ -60,7 +60,7 @@ li {
 }
 
 
-.button:link {
+.button {
     color: black;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
@@ -70,6 +70,12 @@ li {
     padding: 2px;
 }
 
+.button:hover {
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
 .quadrato {
     border: solid 1px white;
 }
