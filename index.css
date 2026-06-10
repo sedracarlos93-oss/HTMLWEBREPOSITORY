@@ -5,9 +5,9 @@
 
 
 .nav-bar {
-    border: solid 1px white ;
-    border-radius: 10px;
-    background-color: gray;
+    border: solid 2px blue;
+    border-radius: 100px;
+    background-color: #FFB280;
     margin: -1px;
     padding: 10px;
     display: flex;
@@ -71,7 +71,7 @@ li {
 }
 
 .button:hover {
-    background-color: lightgray;
+    background-color: khaki;
     color: white;
     border-radius: 5px;
     transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -90,8 +90,8 @@ li {
 .footer {
     border: solid 2px ;
     border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;    
+    color: black;
     margin: -1px;
     padding: 10px;
     display: flex;
